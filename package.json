@@ -1,0 +1,21 @@
+{
+  "name": "appium-e2e-testing",
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/register": "^7.23.7",
+    "@wdio/appium-service": "^8.36.1",
+    "@wdio/cli": "^8.36.1",
+    "@wdio/local-runner": "^8.36.1",
+    "@wdio/mocha-framework": "^8.36.1",
+    "@wdio/spec-reporter": "^8.36.1",
+    "appium-uiautomator2-driver": "^3.4.0",
+    "wdio-mochawesome-reporter": "^4.0.0",
+    "wdio-reportportal-reporter": "^7.6.0",
+    "wdio-wait-for": "^3.0.11"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}
